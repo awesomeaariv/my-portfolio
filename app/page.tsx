@@ -248,9 +248,9 @@ export default function Portfolio() {
               {/* Quick stats */}
               <div style={{ display: "flex", gap: 20, marginTop: 18 }}>
                 {[
-                  { value: "X", label: "Books read this month" },
-                  { value: "X", label: "Chess games played this month" },
-                  { value: "X", label: "Miles ran" },
+                  { value: "3", label: "Books read this month" },
+                  { value: "46", label: "Chess games played this month" },
+                  { value: "28", label: "Miles ran" },
                 ].map((s) => (
                   <div key={s.label}>
                     <div style={{ fontFamily: "'Lora', Georgia, serif", fontSize: 18, fontWeight: 700, color: "#3d3529" }}>{s.value}</div>
@@ -262,8 +262,8 @@ export default function Portfolio() {
               <div style={{ marginTop: 18, display: "flex", gap: 8 }}>
                 {[
                   { icon: <GitHubIcon size={14} />, label: "GitHub", href: "#" },
-                  { icon: <LinkedInIcon size={14} />, label: "LinkedIn", href: "#" },
-                  { icon: <MailIcon size={14} />, label: "Email", href: "#" },
+                  { icon: <LinkedInIcon size={14} />, label: "LinkedIn", href: "https://www.linkedin.com/in/aariv-modi/" },
+                  { icon: <MailIcon size={14} />, label: "Email", href: "mailto:aarivmodi@gmail.com" },
                 ].map((l) => (
                   <a key={l.label} href={l.href} style={{
                     display: "inline-flex", alignItems: "center", gap: 6,
@@ -449,7 +449,7 @@ export default function Portfolio() {
               Looking for Summer 2026 internships. Whether you have an opportunity
               or just want to chat, my inbox is open.
             </p>
-            <a href="mailto:alex@example.com" style={{
+            <a href="mailto:aarivmodi@gmail.com" style={{
               display: "inline-flex", alignItems: "center", gap: 8,
               padding: "10px 24px", borderRadius: 20,
               background: "rgba(214,181,136,0.12)",
