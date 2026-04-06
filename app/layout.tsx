@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Aariv Modi",
-  description: "Incoming UT Austin CS freshman. Building things that help people — from AI-powered study tools to Alexa skills with 1M+ sessions.",
+  description: "Incoming freshman at UT Austin studying Computer Science, interested in infrastructure, machine learning, and user psychology.",
   openGraph: {
     title: "Aariv Modi",
-    description: "Incoming UT Austin CS freshman. Building things that help people — from AI-powered study tools to Alexa skills with 1M+ sessions.",
+    description: "Incoming freshman at UT Austin studying Computer Science, interested in infrastructure, machine learning, and user psychology.",
     url: "https://aarivmodi.com",
     siteName: "Aariv Modi",
     images: [
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Aariv Modi",
-    description: "Incoming UT Austin CS freshman. Building things that help people.",
+    description: "Incoming freshman at UT Austin studying Computer Science, interested in infrastructure, machine learning, and user psychology.",
     images: ["/og-image.png"],
   },
 };

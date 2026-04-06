@@ -85,6 +85,7 @@ export default function Portfolio() {
         @keyframes oceanSlide5 { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
         @keyframes foam { 0%,100% { opacity: 0.4; } 50% { opacity: 0.7; } }
         @keyframes shimmer { 0%,100% { opacity: 0.03; } 50% { opacity: 0.08; } }
+        @keyframes sunPulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
       `}</style>
 
       <div style={{
@@ -141,7 +142,7 @@ export default function Portfolio() {
         <div style={{ position: "relative", overflow: "hidden" }}>
 
         {/* ─── Sun (top-left corner, partially off-screen) ─── */}
-        <div style={{ position: "absolute", top: -30, left: -100, zIndex: 0, pointerEvents: "none" }}>
+        <div style={{ position: "absolute", top: -30, left: -100, zIndex: 0, pointerEvents: "none", animation: "sunPulse 4s ease-in-out infinite" }}>
           <svg width="220" height="220" viewBox="0 0 220 220" fill="none">
             {[0, 30, 60, 90, 120, 150].map((angle) => (
               <ellipse
